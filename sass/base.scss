@@ -162,7 +162,7 @@ dt.activo:before{ content: "▾"; }
 
 
 /*-------------------------GridContainer 8aDG---------------------------------*/
-html ,body{ height: 100%; }
+html ,body{ height: 100%;overflow-x:hidden;margin: 0 auto;padding: 0px;}
 
 .grid-container {
         width: 100%; 
@@ -383,6 +383,11 @@ min-height: 50px!important;
   background: $clr_bs_menu;
   min-height: 50px!important;
   text-align:center;
+}
+
+.promo {
+  background:$clr_cont_carr ;
+    min-height: 200px!important;
 }
 .sldr{
   background:$clr_cont_vid;

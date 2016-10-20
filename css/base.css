@@ -147,7 +147,10 @@ dt.activo:before {
 /*-------------------------GridContainer 8aDG---------------------------------*/
 /* line 165, ../sass/base.scss */
 html, body {
-  height: 100%; }
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0px; }
 
 /* line 167, ../sass/base.scss */
 .grid-container {
@@ -452,48 +455,53 @@ html, body {
   min-height: 50px !important;
   text-align: center; }
 
-/* line 387, ../sass/base.scss */
+/* line 388, ../sass/base.scss */
+.promo {
+  background: #1b1b1b;
+  min-height: 200px !important; }
+
+/* line 392, ../sass/base.scss */
 .sldr {
   background: #e5e5e5;
   min-height: 375px !important; }
 
-/* line 391, ../sass/base.scss */
+/* line 396, ../sass/base.scss */
 .menu_carr {
   background: #1b1b1b;
   min-height: 360px !important; }
 
-/* line 395, ../sass/base.scss */
+/* line 400, ../sass/base.scss */
 .social {
   background: #5a8996;
   min-height: 400px !important; }
 
-/* line 399, ../sass/base.scss */
+/* line 404, ../sass/base.scss */
 .footer {
   background: #333333;
   min-height: 300px !important; }
 
-/* line 403, ../sass/base.scss */
+/* line 408, ../sass/base.scss */
 .bottom {
   background: #043b7b;
   min-height: 50px !important; }
 
-/* line 408, ../sass/base.scss */
+/* line 413, ../sass/base.scss */
 .der {
   float: right; }
 
-/* line 410, ../sass/base.scss */
+/* line 415, ../sass/base.scss */
 .menu ul {
   list-style: none;
   margin: 0;
   padding: 0 12.50%;
   display: inline-flex; }
 
-/* line 416, ../sass/base.scss */
+/* line 421, ../sass/base.scss */
 .menu ul li {
   margin: 0;
   padding: 0; }
 
-/* line 420, ../sass/base.scss */
+/* line 425, ../sass/base.scss */
 .menu a {
   text-decoration: none;
   display: inline-block;
@@ -505,52 +513,52 @@ html, body {
   transition: background-color 0.5s ease-out;
   color: #FFF5A6; }
 
-/* line 432, ../sass/base.scss */
+/* line 437, ../sass/base.scss */
 .menu a:hover {
   background: #fff;
   color: #a001b8; }
 
-/* line 438, ../sass/base.scss */
+/* line 443, ../sass/base.scss */
 .contenidos a {
   color: #0f335f; }
 
-/* line 442, ../sass/base.scss */
+/* line 447, ../sass/base.scss */
 .grilla a {
   color: #0188c8; }
 
-/* line 446, ../sass/base.scss */
+/* line 451, ../sass/base.scss */
 .canal a {
   color: #0f335f; }
 
-/* line 450, ../sass/base.scss */
+/* line 455, ../sass/base.scss */
 .cont_video {
   min-height: 380px; }
 
-/* line 454, ../sass/base.scss */
+/* line 459, ../sass/base.scss */
 .logo {
   padding: 34px 0 34px 34px;
   font-weight: bold;
   font-family: sans-serif; }
 
-/* line 460, ../sass/base.scss */
+/* line 465, ../sass/base.scss */
 .logo span {
   position: relative;
   top: -35px;
   left: 10px; }
 
-/* line 466, ../sass/base.scss */
+/* line 471, ../sass/base.scss */
 .box_compra {
   display: inline-flex;
   height: 40px;
   width: 98%;
   padding: 30px 0 20px 0; }
 
-/* line 473, ../sass/base.scss */
+/* line 478, ../sass/base.scss */
 .item_cantidad {
   width: 80%;
   height: 40px; }
 
-/* line 478, ../sass/base.scss */
+/* line 483, ../sass/base.scss */
 .item_Quantity {
   border: none;
   width: 100%;
@@ -566,13 +574,13 @@ html, body {
   height: 100%;
   font-size: 14px; }
 
-/* line 495, ../sass/base.scss */
+/* line 500, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 504, ../sass/base.scss */
+/* line 509, ../sass/base.scss */
 .item_add {
   background-color: #004455;
   color: #fff;
@@ -588,7 +596,7 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 521, ../sass/base.scss */
+/* line 526, ../sass/base.scss */
 .item_add span {
   font-family: 'gorrasiUI', sans-serif;
   color: #fff;
@@ -601,29 +609,29 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 534, ../sass/base.scss */
+/* line 539, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
   font-size: 2.5em; }
 
-/* line 539, ../sass/base.scss */
+/* line 544, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 543, ../sass/base.scss */
+/* line 548, ../sass/base.scss */
 .usuario {
   display: block;
   height: 150px;
   line-height: 150px;
   white-space: nowrap; }
 
-/* line 550, ../sass/base.scss */
+/* line 555, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px;
   padding: 0 30px; }
 
-/* line 556, ../sass/base.scss */
+/* line 561, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: -6px;
@@ -631,7 +639,7 @@ html, body {
   color: #004455;
   white-space: nowrap; }
 
-/* line 564, ../sass/base.scss */
+/* line 569, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
@@ -639,20 +647,20 @@ html, body {
   color: #004455;
   left: -20px; }
 
-/* line 571, ../sass/base.scss */
+/* line 576, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #FFF5A6;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 576, ../sass/base.scss */
+/* line 581, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #FFF5A6;
   position: relative;
   top: 6px; }
 
-/* line 580, ../sass/base.scss */
+/* line 585, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;
