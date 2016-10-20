@@ -581,7 +581,7 @@ html, body {
   border: none; }
 
 /* line 509, ../sass/base.scss */
-.item_add {
+.item_add a {
   background-color: #004455;
   color: #fff;
   display: block;
