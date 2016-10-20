@@ -460,7 +460,7 @@ html, body {
 .promo {
   background: #1b1b1b no-repeat right/110% url("../img/fondo.svg");
   background-position: 120px -10px;
-  min-height: 200px !important;
+  min-height: 350px !important;
   color: #FFF5A6;
   padding: 10px; }
 
