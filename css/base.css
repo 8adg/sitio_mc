@@ -446,7 +446,7 @@ html, body {
 
 /* line 378, ../sass/base.scss */
 .hdr {
-  background: #a001b8 no-repeat center/80% url "../img/fondo.svg";
+  background: #a001b8 no-repeat url("../img/fondo.svg");
   min-height: 150px !important; }
 
 /* line 382, ../sass/base.scss */
