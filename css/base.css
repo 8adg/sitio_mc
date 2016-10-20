@@ -504,8 +504,8 @@ html, body {
 
 /* line 426, ../sass/base.scss */
 .menu a {
-  font-family: 'Abhaya Libre', serif;
-  font-weight: 400;
+  font-family: 'Roboto';
+  font-weight: 100;
   text-decoration: none;
   display: inline-block;
   padding: 20px 30px;
@@ -640,7 +640,7 @@ html, body {
   font-weight: 500;
   position: relative;
   top: -6px;
-  font-size: 16px;
+  font-size: 18px;
   color: #FFF5A6;
   white-space: nowrap;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); }
