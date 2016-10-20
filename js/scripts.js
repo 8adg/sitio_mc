@@ -1,5 +1,3 @@
-window.sr = ScrollReveal();
-
 $(function(){
 	$('.cont_scroll').makeScroll();
 });
@@ -153,3 +151,5 @@ $(function() {
 $( "#open-busca" ).click(function() {
   $( "#caja-busca" ).toggle();
 });
+
+ window.sr = new scrollReveal(); 
