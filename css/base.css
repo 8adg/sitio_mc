@@ -459,7 +459,7 @@ html, body {
 
 /* line 390, ../sass/base.scss */
 .promo {
-  background: #1b1b1b no-repeat right/110% url("../img/fondo.svg");
+  background: #303030 no-repeat right/110% url("../img/fondo.svg");
   background-position: 120px -10px;
   min-height: 350px !important;
   color: #FFF5A6;
@@ -472,7 +472,7 @@ html, body {
 
 /* line 401, ../sass/base.scss */
 .menu_carr {
-  background: #1b1b1b;
+  background: #303030;
   min-height: 360px !important; }
 
 /* line 405, ../sass/base.scss */
