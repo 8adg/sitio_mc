@@ -506,7 +506,7 @@ border: none;
 
 
 
-.item_add a {
+.item_add {
     background-color:$clr_bs_2;
     color: #fff;
     display: block;
@@ -534,12 +534,6 @@ border: none;
     -moz-transition: background-color 0.5s ease-out;
     -o-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
-}
-
-.item_add a:hover {
-background:$Fclr_menu;
-  color:$clr_bs_2;
-
 }
 
 
