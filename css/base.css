@@ -610,36 +610,33 @@ html, body {
   transition: background-color 0.5s ease-out; }
 
 /* line 539, ../sass/base.scss */
-.item_add:hover {
-  background: #FFF5A6; }
-
-/* line 544, ../sass/base.scss */
-.item_add span:hover {
+.item_add a:hover {
+  background: #FFF5A6;
   color: #004455; }
 
-/* line 549, ../sass/base.scss */
+/* line 546, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
   font-size: 2.5em; }
 
-/* line 554, ../sass/base.scss */
+/* line 551, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 558, ../sass/base.scss */
+/* line 555, ../sass/base.scss */
 .usuario {
   display: block;
   height: 150px;
   line-height: 150px;
   white-space: nowrap; }
 
-/* line 565, ../sass/base.scss */
+/* line 562, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px;
   padding: 0 30px; }
 
-/* line 571, ../sass/base.scss */
+/* line 568, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: -6px;
@@ -647,7 +644,7 @@ html, body {
   color: #004455;
   white-space: nowrap; }
 
-/* line 579, ../sass/base.scss */
+/* line 576, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
@@ -655,20 +652,20 @@ html, body {
   color: #004455;
   left: -20px; }
 
-/* line 586, ../sass/base.scss */
+/* line 583, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #FFF5A6;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 591, ../sass/base.scss */
+/* line 588, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #FFF5A6;
   position: relative;
   top: 6px; }
 
-/* line 595, ../sass/base.scss */
+/* line 592, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;
