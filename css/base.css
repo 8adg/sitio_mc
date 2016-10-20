@@ -448,7 +448,7 @@ html, body {
 
 /* line 382, ../sass/base.scss */
 .menu {
-  background: #004455;
+  background: #FFF5A6;
   min-height: 50px !important;
   text-align: center; }
 
@@ -503,16 +503,16 @@ html, body {
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
-  color: #a001b8; }
+  color: #FFF5A6; }
 
 /* line 432, ../sass/base.scss */
 .menu a:hover {
   background: #fff;
-  color: #004455; }
+  color: #a001b8; }
 
 /* line 437, ../sass/base.scss */
 .vivo a {
-  color: #8d141c; }
+  color: #FFF5A6; }
 
 /* line 441, ../sass/base.scss */
 .contenidos a {

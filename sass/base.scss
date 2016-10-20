@@ -3,7 +3,7 @@
 $clr_bs_top: #043b7b;
 $clr_bs_hdr: #a001b8;
 $clr_bs_2: #004455;
-$clr_bs_menu: #004455;
+$clr_bs_menu: #FFF5A6;
 $clr_cont_vid: #e5e5e5;
 $clr_cont_carr: #1b1b1b;
 $clr_cont_scl: #5a8996;
@@ -29,7 +29,7 @@ $ddClrFont:#fff;
 //rows
 $alto_minimo:250px;
 //menu
-$Fclr_menu_vivo:#8d141c;
+$Fclr_menu:#FFF5A6;
 $Fclr_menu_contenidos:#0f335f;
 $Fclr_menu_grilla:#0188c8;
 $Fclr_menu_canal:#0f335f;
@@ -426,16 +426,16 @@ text-align: center;
 -moz-transition: background-color 0.5s ease-out;
 -o-transition: background-color 0.5s ease-out;
 transition: background-color 0.5s ease-out;
-color:$clr_bs_hdr;
+color:$Fclr_menu;
 }
 
 .menu a:hover{
 background: $BckColor;
-color:$clr_bs_menu;
+color:$clr_bs_hdr;
 }
 
 .vivo a{
-  color: $Fclr_menu_vivo;
+  color: $Fclr_menu;
 }
 
 .contenidos a{
