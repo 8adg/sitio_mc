@@ -606,7 +606,7 @@ html, body {
   left: 5px; }
 
 /* line 535, ../sass/base.scss */
-.item_add :hover {
+.item_add:hover {
   background: #FFF5A6;
   color: #004455; }
 
