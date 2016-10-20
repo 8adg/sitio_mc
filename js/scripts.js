@@ -1,3 +1,7 @@
+window.onload=function(){
+new scrollReveal();
+}
+
 $(function(){
 	$('.cont_scroll').makeScroll();
 });
