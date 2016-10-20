@@ -505,7 +505,7 @@ html, body {
 /* line 426, ../sass/base.scss */
 .menu a {
   font-family: 'Roboto';
-  font-weight: 100;
+  font-weight: 300;
   text-decoration: none;
   display: inline-block;
   padding: 20px 30px;
