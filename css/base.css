@@ -443,7 +443,7 @@ html, body {
 
 /* line 378, ../sass/base.scss */
 .hdr {
-  background: #ee8d03;
+  background: #a001b8;
   min-height: 150px !important; }
 
 /* line 382, ../sass/base.scss */
@@ -503,7 +503,7 @@ html, body {
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
-  color: #ee8d03; }
+  color: #a001b8; }
 
 /* line 432, ../sass/base.scss */
 .menu a:hover {
