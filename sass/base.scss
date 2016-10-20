@@ -381,9 +381,10 @@ min-height: 50px!important;
   min-height: 150px!important;
 }
 .menu{
-  background: $clr_bs_menu;
   min-height: 50px!important;
   text-align:center;
+  background:$clr_bs_menu  no-repeat right/110% url('../img/fondo.svg') ;
+  background-position:-120px -10px;
 }
 
 .promo {
