@@ -387,8 +387,10 @@ min-height: 50px!important;
 }
 
 .promo {
-  background:$clr_cont_carr ;
+    background:$clr_cont_carr  no-repeat right/110% url('../img/fondo.svg') ;
+    background-position:120px -10px;
     min-height: 200px!important;
+    color:$Fclr_menu;
 }
 .sldr{
   background:$clr_cont_vid;
