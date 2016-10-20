@@ -525,15 +525,17 @@ border: none;
 
 .item_add span{
     font-family: 'gorrasiUI', sans-serif;
-    color: #fff;
+    color: $Fclr_menu;
     display: block;
-    width: 130px;
     line-height: 1.6;
     position:relative;
-    -webkit-transition: background-color 0.5s ease-out;
-    -moz-transition: background-color 0.5s ease-out;
-    -o-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
+    left: 5px;
+}
+
+.item_add :hover {
+background:$Fclr_menu;
+color:$clr_bs_2;
+
 }
 
 .ui {
