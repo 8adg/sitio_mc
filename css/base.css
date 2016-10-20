@@ -455,7 +455,7 @@ html, body {
   min-height: 50px !important;
   text-align: center;
   background: #31104B no-repeat right/110% url("../img/fondo.svg");
-  background-position: -120px -10px; }
+  background-position: -120px -80px; }
 
 /* line 390, ../sass/base.scss */
 .promo {
