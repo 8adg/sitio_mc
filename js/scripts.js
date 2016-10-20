@@ -1,6 +1,4 @@
-window.onload=function(){
-new scrollReveal();
-}
+window.sr = ScrollReveal();
 
 $(function(){
 	$('.cont_scroll').makeScroll();
