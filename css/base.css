@@ -452,7 +452,7 @@ html, body {
 
 /* line 383, ../sass/base.scss */
 .menu {
-  background: #004455;
+  background: #31104B;
   min-height: 50px !important;
   text-align: center; }
 
@@ -588,7 +588,7 @@ html, body {
 
 /* line 515, ../sass/base.scss */
 .item_add {
-  background-color: #004455;
+  background-color: #31104B;
   color: #fff;
   display: block;
   height: 40px;
