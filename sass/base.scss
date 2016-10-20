@@ -530,13 +530,21 @@ border: none;
     line-height: 1.6;
     position:relative;
     left: 5px;
+        -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
 }
 
 .item_add:hover {
 background:$Fclr_menu;
-color:$clr_bs_2;
+
 
 }
+ .item_add span:hover{
+  color:$clr_bs_2;
+ }
+
 
 .ui {
 font-family: 'gorrasiUI';
