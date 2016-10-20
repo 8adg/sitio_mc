@@ -5,7 +5,7 @@
 /*////////////////////////////////////////////////////////////////////////////*/
 /*--------------------------------| FUENTES |---------------------------------*/
 /*TITULOS*/
-@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Abhaya+Libre:400,500,600,700,800);
 /*TEXTOS EN GRAL*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
@@ -492,17 +492,18 @@ html, body {
 
 /* line 416, ../sass/base.scss */
 .menu ul {
+  font-family: 'Abhaya Libre', serif;
   list-style: none;
   margin: 0;
   padding: 0 12.50%;
   display: inline-flex; }
 
-/* line 422, ../sass/base.scss */
+/* line 423, ../sass/base.scss */
 .menu ul li {
   margin: 0;
   padding: 0; }
 
-/* line 426, ../sass/base.scss */
+/* line 427, ../sass/base.scss */
 .menu a {
   text-decoration: none;
   display: inline-block;
@@ -514,52 +515,52 @@ html, body {
   transition: background-color 0.5s ease-out;
   color: #FFF5A6; }
 
-/* line 438, ../sass/base.scss */
+/* line 439, ../sass/base.scss */
 .menu a:hover {
   background: #fff;
   color: #a001b8; }
 
-/* line 444, ../sass/base.scss */
+/* line 445, ../sass/base.scss */
 .contenidos a {
   color: #0f335f; }
 
-/* line 448, ../sass/base.scss */
+/* line 449, ../sass/base.scss */
 .grilla a {
   color: #0188c8; }
 
-/* line 452, ../sass/base.scss */
+/* line 453, ../sass/base.scss */
 .canal a {
   color: #0f335f; }
 
-/* line 456, ../sass/base.scss */
+/* line 457, ../sass/base.scss */
 .cont_video {
   min-height: 380px; }
 
-/* line 460, ../sass/base.scss */
+/* line 461, ../sass/base.scss */
 .logo {
   padding: 34px 0 34px 34px;
   font-weight: bold;
   font-family: sans-serif; }
 
-/* line 466, ../sass/base.scss */
+/* line 467, ../sass/base.scss */
 .logo span {
   position: relative;
   top: -35px;
   left: 10px; }
 
-/* line 472, ../sass/base.scss */
+/* line 473, ../sass/base.scss */
 .box_compra {
   display: inline-flex;
   height: 40px;
   width: 98%;
   padding: 30px 0 20px 0; }
 
-/* line 479, ../sass/base.scss */
+/* line 480, ../sass/base.scss */
 .item_cantidad {
   width: 80%;
   height: 40px; }
 
-/* line 484, ../sass/base.scss */
+/* line 485, ../sass/base.scss */
 .item_Quantity {
   border: none;
   width: 100%;
@@ -575,13 +576,13 @@ html, body {
   height: 100%;
   font-size: 14px; }
 
-/* line 501, ../sass/base.scss */
+/* line 502, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 510, ../sass/base.scss */
+/* line 511, ../sass/base.scss */
 .item_add {
   background-color: #004455;
   color: #fff;
@@ -597,7 +598,7 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 527, ../sass/base.scss */
+/* line 528, ../sass/base.scss */
 .item_add span {
   font-family: 'gorrasiUI', sans-serif;
   color: #FFF5A6;
@@ -610,29 +611,29 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 541, ../sass/base.scss */
+/* line 542, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
   font-size: 2.5em; }
 
-/* line 546, ../sass/base.scss */
+/* line 547, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 550, ../sass/base.scss */
+/* line 551, ../sass/base.scss */
 .usuario {
   display: block;
   height: 150px;
   line-height: 150px;
   white-space: nowrap; }
 
-/* line 557, ../sass/base.scss */
+/* line 558, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px;
   padding: 0 30px; }
 
-/* line 563, ../sass/base.scss */
+/* line 564, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: -6px;
@@ -640,7 +641,7 @@ html, body {
   color: #004455;
   white-space: nowrap; }
 
-/* line 571, ../sass/base.scss */
+/* line 572, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
@@ -648,20 +649,20 @@ html, body {
   color: #004455;
   left: -20px; }
 
-/* line 578, ../sass/base.scss */
+/* line 579, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #FFF5A6;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 583, ../sass/base.scss */
+/* line 584, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #FFF5A6;
   position: relative;
   top: 6px; }
 
-/* line 587, ../sass/base.scss */
+/* line 588, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;

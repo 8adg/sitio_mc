@@ -48,7 +48,7 @@ $eventh:375px;
 /*--------------------------------| FUENTES |---------------------------------*/
 
 /*TITULOS*/
-@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Abhaya+Libre:400,500,600,700,800);
 /*TEXTOS EN GRAL*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
 
@@ -413,7 +413,8 @@ min-height: 50px!important;
 
 .der{float: right;}
 
-.menu ul {  
+.menu ul {
+font-family:'Abhaya Libre', serif;  
   list-style:none;
   margin:0;
   padding:0 12.50%;
